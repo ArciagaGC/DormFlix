@@ -1,5 +1,7 @@
 package com.example.dormflixv2;
 
+import com.google.firebase.auth.FirebaseUser;
+
 public class dorms {
 
     String dormName;
@@ -14,6 +16,10 @@ public class dorms {
         this.dormPrice = dormPrice;
         this.img = img;
     }
+
+    public static void add(FirebaseUser user) {
+    }
+
 
     public String getDormName() {
         return dormName;

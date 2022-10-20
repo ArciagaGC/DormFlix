@@ -16,27 +16,12 @@
         android:textColor="@color/dark"
         android:textSize="22sp" />
 
-    <TextView
-        android:id="@+id/rating"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/imageView5"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="-18dp"
-        android:fontFamily="@font/poppins_bold"
-        android:gravity="center"
-        android:minLines="2"
-        android:paddingTop="1dp"
-        android:paddingBottom="36dp"
-        android:text="Please rate your experience"
-        android:textColor="@color/dark"
-        android:textSize="16sp" />
+
 
     <TextView
         android:id="@+id/comment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rating"
         android:layout_marginTop="2dp"
         android:fontFamily="@font/poppins_bold"
         android:gravity="center"
@@ -46,7 +31,8 @@
         android:paddingBottom="36dp"
         android:text="Additional Comments"
         android:textColor="@color/dark"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:layout_below="@+id/imageView5"/>
 
 
     <EditText
@@ -95,49 +81,12 @@
         android:layout_marginTop="10dp"
         app:srcCompat="@drawable/feedback" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/rating"
-        android:layout_marginLeft="65dp"
-        android:layout_marginTop="-42dp"
-        app:srcCompat="@drawable/mood1" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_below="@id/rating"
-        android:layout_marginLeft="129dp"
-        android:layout_marginTop="-42dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mood2" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_below="@id/rating"
-        android:layout_marginLeft="193dp"
-        android:layout_marginTop="-42dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mood3" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_below="@id/rating"
-        android:layout_marginLeft="257dp"
-        android:layout_marginTop="-42dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mood4" />
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_below="@id/rating"
-        android:layout_marginLeft="321dp"
-        android:layout_marginTop="-42dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mood5" />
+
+
+
 
 </RelativeLayout>
