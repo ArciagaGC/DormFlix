@@ -17,7 +17,7 @@ public class adaptDorm extends RecyclerView.Adapter<adaptDorm.MyViewHolder> {
 
     Context context;
     ArrayList<dorms> Dorms;
-    public adaptDorm(Context context, ArrayList<dorms> Dorms, recyclerViewInterface recyclerViewInterface){
+    public adaptDorm(Context context, ArrayList<dorms> Dorms){
         this.context = context;
         this.Dorms = Dorms;
         this.recyclerViewInterface = recyclerViewInterface;
